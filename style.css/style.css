@@ -1,0 +1,16 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(247, 217, 241);
+  text-align: center;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+
+  font-weight: 600;
+  font-style: italic;
+}
+p {
+  font-weight: 300;
+  font-style: normal;
+}
