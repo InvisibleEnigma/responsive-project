@@ -1,6 +1,5 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(247, 217, 241);
   text-align: center;
 }
 
@@ -13,4 +12,12 @@ h1 {
 p {
   font-weight: 300;
   font-style: normal;
+}
+.separator {
+  height: 2px;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.683);
+  margin: 20px auto; 
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
