@@ -1,3 +1,9 @@
+:root{
+    --primary-color:#490773;
+    --secondary-color:#6750A4;
+    --white:white;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -5,22 +11,25 @@ header {
   text-align: center;
   margin: 80px;
 }
-h1 {
-  color: rgb(0, 0, 0);
+header h1, h2, p {
+color: var(--primary-color);
+}
+header h1 {
+  
   font-weight: 500;
   font-size: 95px;
-  color: #490773;
+  
 }
 header h2 {
-    font-size: 30px;
-    font-weight: 300;
-    margin: 20px auto;
-    color: #490773;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 20px auto;
+  
 }
 header p {
   font-weight: 300;
   font-style: normal;
-  color: #490773;
+  ;
   font-size: 40px;
   margin: 10px auto;
   letter-spacing: 2px;
@@ -34,10 +43,9 @@ header p {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 .btn-branding {
-    background: #6750A4;
-    color: white;
-    border-radius: 4px;
-    padding: 12px;
-    margin: 10px 10px;
-    
+  background:var(--secondary-color);
+  color: var(--white);
+  border-radius: 4px;
+  padding: 12px;
+  margin: 10px 10px;
 }
