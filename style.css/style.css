@@ -45,6 +45,19 @@ footer {
   text-align: center;
   color: var(--colour)
 }
+.custom-navbar {
+  background-color: #6750a4;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: var(--white) !important; 
+}
+
+.custom-navbar .navbar-brand:hover,
+.custom-navbar .nav-link:hover {
+  color: #ddd !important; 
+}
 .separator {
   height: 2px;
   width: 80%;
