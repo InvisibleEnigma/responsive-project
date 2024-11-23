@@ -96,9 +96,11 @@ footer {
 .custom-navbar .nav-link:hover {
   color: #ddd !important;
 }
+
 .separator {
   height: 2px;
-  width: 80%;
+  width: 90%;
+  max-width: 1200px;
   background-color: var(--colour);
   margin: 30px auto;
   border-radius: 2px;
