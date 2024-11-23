@@ -74,7 +74,7 @@ footer {
 }
 .social-icons a {
   font-size: 36px;
-  color:  rgb(62, 62, 62);
+  color: rgb(62, 62, 62);
   margin: 0 20px;
   text-decoration: none;
   transition: color 0.3s ease;
@@ -157,4 +157,15 @@ img.img-fluid {
   img.img-fluid {
     display: none;
   }
+  .about-paragraph {
+    font-size: 14px; 
+    margin: 10px 20px; 
+  }
+  .about-section h1{
+    font-size: 50px;
+  }
+  .about-section h2 {
+    font-size: 20px;
+  }
 }
+
