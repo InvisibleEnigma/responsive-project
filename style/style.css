@@ -7,6 +7,10 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  
+
 }
 header {
   text-align: center;
@@ -86,7 +90,7 @@ footer {
   color: var(--secondary-color);
 }
 
-.portfolio-title {
+.page-title {
   font-size: 80px;
   text-align: center;
 }
@@ -94,7 +98,6 @@ footer {
   margin: 20px;
   padding: 20px;
 }
-
 .custom-navbar {
   background-color: #6750a4;
 }
@@ -117,6 +120,10 @@ footer {
   margin: 30px auto;
   border-radius: 2px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
 }
 .btn-branding {
   background: var(--secondary-color);
@@ -168,11 +175,11 @@ img.portfolio-image {
   .row img {
     margin-bottom: 20px;
   }
-  .portfolio-title {
-    font-size: 65px;
+  .page-title {
+    font-size: 65px !important;
   }
   .job-title {
-    font-size: 20px;
+    font-size: 20px !important;
   }
 }
 
@@ -180,18 +187,17 @@ img.portfolio-image {
   .project-description {
     padding: 40px 20px;
   }
-  .portfolio-title {
-    font-size: 45px;
+  .page-title {
+    font-size: 45px !important;
   }
   .job-title {
-    font-size: 15px;
+    font-size: 15px !important;
   }
   img.portfolio-image {
     display: block;
     margin: 0 auto 20px auto;
   }
   .img-fluid {
-    /* will have to change this so portfolio site wont have this applied */
     display: none;
   }
 
