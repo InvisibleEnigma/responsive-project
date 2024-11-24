@@ -45,13 +45,17 @@ main p {
 main h3 {
   color: var(--primary-color);
 }
-footer {
+.custom-footer {
   font-size: 15px;
   font-weight: 300;
+  width: 80%;
   margin: 20px auto;
   text-align: center;
   color: var(--colour);
+  background-color: rgba(103, 80, 164, 0.1); 
+  padding: 20px; 
 }
+
 .header-section {
   text-align: center;
 }
@@ -121,6 +125,7 @@ footer {
   border-radius: 2px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
 .row {
   margin-right: 0;
   margin-left: 0;
