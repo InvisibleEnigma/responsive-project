@@ -82,7 +82,14 @@ footer {
 .social-icons a:hover {
   color: var(--secondary-color);
 }
-
+.portfolio-title {
+  font-size: 80px;
+  text-align: center;
+}
+.content-container {
+  margin: 20px;
+  padding: 20px;
+}
 .custom-navbar {
   background-color: #6750a4;
 }
@@ -131,9 +138,14 @@ footer {
 .project-description a {
   text-align: center;
 }
-img.img-fluid {
+
+.img-fluid {
   max-width: 100%;
   height: auto;
+}
+img.portfolio-image {
+  display: block;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 1200px) {
@@ -150,24 +162,41 @@ img.img-fluid {
   .row img {
     margin-bottom: 20px;
   }
+  .portfolio-title {
+    font-size: 65px;
+  }
+  .job-title {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 768px) {
   .project-description {
     padding: 40px 20px;
   }
-  img.img-fluid {
+  .portfolio-title {
+    font-size: 45px;
+  }
+  .job-title {
+    font-size: 15px;
+  }
+  img.portfolio-image {
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+  .img-fluid {
+    /* will have to change this so portfolio site wont have this applied */
     display: none;
   }
+
   .about-paragraph {
-    font-size: 14px; 
-    margin: 10px 20px; 
+    font-size: 14px;
+    margin: 10px 20px;
   }
-  .about-section h1{
+  .about-section h1 {
     font-size: 50px;
   }
   .about-section h2 {
     font-size: 20px;
   }
 }
-
