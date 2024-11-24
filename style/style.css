@@ -186,6 +186,10 @@ img.portfolio-image {
   .job-title {
     font-size: 20px !important;
   }
+  .custom-footer{
+    padding: 15px 0;
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -215,5 +219,9 @@ img.portfolio-image {
   }
   .about-section h2 {
     font-size: 20px;
+  }
+   .custom-footer{
+    padding: 10px 0;
+    font-size: 10px;
   }
 }
