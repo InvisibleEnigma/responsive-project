@@ -146,6 +146,7 @@ footer {
 img.portfolio-image {
   display: block;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 @media (max-width: 1200px) {
