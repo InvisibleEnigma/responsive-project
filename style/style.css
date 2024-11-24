@@ -9,9 +9,8 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  
-
 }
+
 header {
   text-align: center;
   margin: 60px;
@@ -37,6 +36,7 @@ header p {
   margin: 10px auto;
   letter-spacing: 2px;
 }
+
 main p {
   font-weight: normal;
   font-size: 16px;
@@ -45,6 +45,7 @@ main p {
 main h3 {
   color: var(--primary-color);
 }
+
 .custom-footer {
   font-size: 15px;
   font-weight: 300;
@@ -52,8 +53,8 @@ main h3 {
   margin: 20px auto;
   text-align: center;
   color: var(--colour);
-  background-color: rgba(103, 80, 164, 0.1); 
-  padding: 20px; 
+  background-color: rgba(103, 80, 164, 0.1);
+  padding: 20px;
 }
 
 .header-section {
@@ -83,6 +84,7 @@ main h3 {
   text-align: center;
   margin: 20px auto;
 }
+
 .social-icons a {
   font-size: 36px;
   color: rgb(62, 62, 62);
@@ -98,19 +100,23 @@ main h3 {
   font-size: 80px;
   text-align: center;
 }
+
 .content-container {
   margin: 20px;
   padding: 20px;
 }
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .custom-navbar {
   background-color: #6750a4;
 }
-
 .custom-navbar .navbar-brand,
 .custom-navbar .nav-link {
   color: var(--white) !important;
 }
-
 .custom-navbar .navbar-brand:hover,
 .custom-navbar .nav-link:hover {
   color: #ddd !important;
@@ -126,10 +132,6 @@ main h3 {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.row {
-  margin-right: 0;
-  margin-left: 0;
-}
 .btn-branding {
   background: var(--secondary-color);
   color: var(--white);
@@ -145,11 +147,11 @@ main h3 {
   padding: 12px;
   margin: 10px 10px;
 }
+
 .project-description {
   padding: 100px 60px;
   text-align: center;
 }
-
 .project-description p,
 .project-description h2,
 .project-description a {
@@ -186,9 +188,14 @@ img.portfolio-image {
   .job-title {
     font-size: 20px !important;
   }
-  .custom-footer{
+  .custom-footer {
     padding: 15px 0;
     font-size: 16px;
+  }
+  .about-image {
+    display: block !important;
+    max-width: 100%;
+    margin: auto;
   }
 }
 
@@ -220,7 +227,12 @@ img.portfolio-image {
   .about-section h2 {
     font-size: 20px;
   }
-   .custom-footer{
+  .about-image {
+    display: block !important;
+    max-width: 80%;
+    margin: auto;
+  }
+  .custom-footer {
     padding: 10px 0;
     font-size: 10px;
   }
